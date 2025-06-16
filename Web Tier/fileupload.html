@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Image Upload</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(135deg, #00c3ff, #ffff1c);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .upload-container {
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(20px);
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+      width: 100%;
+      max-width: 420px;
+      text-align: center;
+      color: #fff;
+      animation: fadeIn 1s ease-in;
+    }
+
+    h1 {
+      font-size: 28px;
+      margin-bottom: 25px;
+      font-weight: 600;
+      color: #ffffff;
+    }
+
+    label {
+      display: block;
+      text-align: left;
+      font-weight: 600;
+      margin: 10px 0 5px;
+      font-size: 14px;
+      color: #f0f0f0;
+    }
+
+    input[type="text"],
+    input[type="file"] {
+      width: 100%;
+      padding: 12px;
+      border: none;
+      border-radius: 10px;
+      font-size: 14px;
+      margin-bottom: 20px;
+      background-color: rgba(255, 255, 255, 0.8);
+      color: #333;
+    }
+
+    input[type="text"]::placeholder {
+      color: #888;
+    }
+
+    input[type="submit"] {
+      background: linear-gradient(135deg, #00ff8c, #00cfff);
+      color: white;
+      padding: 14px 0;
+      width: 100%;
+      border: none;
+      border-radius: 10px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    input[type="submit"]:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (max-width: 480px) {
+      .upload-container {
+        padding: 30px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="upload-container">
+    <h1>🚀 Upload Your Image</h1>
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" placeholder="e.g. John Doe" required>
+
+      <label for="anyfile">Choose an Image</label>
+      <input type="file" name="anyfile" id="anyfile" accept="image/*" required>
+
+      <input type="submit" value="Upload Now">
+    </form>
+  </div>
+</body>
+</html>

@@ -1,0 +1,1 @@
+Create a database named facebook inside it and a table named posts inside it and three clumns named as name, s3url, cdnurl.

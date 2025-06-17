@@ -80,5 +80,5 @@ This project is a **3-tier web application** hosted on **AWS** that allows users
 ## 🖼️ Sample Screenshot
 
 ```markdown
-![Upload Page](Images/Screenshot (183).png)
-![S3 Output](Images/Screenshot (184).png)
+![Upload Page](Images/Screenshot_(183).png)
+![S3 Output](Images/Screenshot_(184).png)

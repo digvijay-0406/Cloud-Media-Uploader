@@ -81,7 +81,7 @@ This project is a **3-tier web application** hosted on **AWS** that allows users
 
 **Upload Page**  
 ![Upload Page](Images/Screenshot_183.png)
-<br>
+<br><br><br>
 **Output Page**  
 ![Output Page](Images/Screenshot_184.png)
 <br>

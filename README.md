@@ -89,7 +89,7 @@ This project is a **3-tier web application** hosted on **AWS** that allows users
 ![VPC and subnet](Images/Screenshot_173.png)
 ![VPC and subnet](Images/Screenshot_174.png)
 <br><br><br>
-<h2 align="center">EC2 Instances (Web and App Tier)</h2>
+**<h2 align="center">EC2 Instances (Web and App Tier)</h2>**
 ![S3 Bucket](Images/Screenshot_175.png)
 <br><br><br>
 **Load balancer and Target groups**

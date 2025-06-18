@@ -79,6 +79,9 @@ This project is a **3-tier web application** hosted on **AWS** that allows users
 
 ## 🖼️ Sample Screenshot
 
-
+**Upload Page**  
 ![Upload Page](Images/Screenshot_183.png)
-![S3 Output](Images/Screenshot_184.png)
+**Output Page**  
+![Output Page](Images/Screenshot_184.png)
+**S3 Bucket (Image Storage)**
+

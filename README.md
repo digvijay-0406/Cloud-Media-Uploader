@@ -81,18 +81,24 @@ This project is a **3-tier web application** hosted on **AWS** that allows users
 
 **Upload Page**  
 ![Upload Page](Images/Screenshot_183.png)
+<br>
 **Output Page**  
 ![Output Page](Images/Screenshot_184.png)
+<br>
 **VPC and Subnet Design**
 ![VPC and subnet](Images/Screenshot_173.png)
 ![VPC and subnet](Images/Screenshot_174.png)
+<br>
 **EC2 instances (Web and App tier)**
 ![S3 Bucket](Images/Screenshot_175.png)
+<br>
 **Load balancer and Target groups**
 ![load balancer and target groups](Images/Screenshot_177.png)
 ![load balancer and target groups](Images/Screenshot_178.png)
 ![load balancer and target groups](Images/Screenshot_179.png)
+<br>
 **S3 Bucket (Image Storage)**
 ![S3 Bucket](Images/Screenshot_185.png)
+<br>
 **RDS Database (Text Storage)**
 ![RDS Database](Images/Screenshot_187.png)
